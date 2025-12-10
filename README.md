@@ -1,2 +1,4 @@
-# My-first-github-project
-This is my first python project, I am excited and zealous to begin my journey in tech
+I created this tiny Python script because I never know what to cook or eat 😅  
+This program basically gives you one random recipe idea every time you run it.  
+Nothing fancy… just simple and fun
+
