@@ -1,18 +1,22 @@
 import random
 
-# Function to generate random recipe
-def generate_random_recipe():
-    # Randomly pick one ingredient
-    ingredient = random.choice(['Chicken', 'egg', 'Tofu'])
-    
-    # Randomly pick one cooking method
-    cooking_method = random.choice(['grilled', 'fried', 'boiled'])
-    
-    # Combine and return the recipe
-    return f"Random Recipe: {cooking_method.capitalize()} {ingredient}."
+recipes = [
+    "Pasta with garlic, butter and chilli flakes",
+    "Egg fried rice with a handful of veggies",
+    "Grilled chicken with pepper and lemon",
+    "Veg cheese sandwich with mayo",
+    "Tomato omelette with onions",
+    "Banana milkshake with honey",
+    "Simple tomato soup with herbs",
+    "Potato masala toast",
+    "Cold coffee with whipped cream",
+    "Chicken noodles with soy sauce"
+]
 
-# Main program
-if __name__ == "__main__":
-    print("Welcome to the easy peasy Random Recipe Generator!")
-    print(generate_random_recipe())
+print("=== Random Recipe Generator ===")
+
+choice = random.choice(recipes)
+
+print("Try making this today:")
+print(choice)
 
